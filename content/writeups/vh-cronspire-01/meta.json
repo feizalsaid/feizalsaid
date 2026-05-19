@@ -1,7 +1,7 @@
 {
   "id": "vh-cronspire-01",
   "title": "VulnHub · CronSpire: Wildcard Abuse → Root",
-  "category": "offensive",
+  "category": "Offensive",
   "date": "2025-11-12",
   "readTime": "18 min lab",
   "excerpt": "From stale web foothold to root via tar wildcarding, mis-scoped sudo, and a disciplined enumeration pass — full chain with artifacts.",
