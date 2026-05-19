@@ -1,7 +1,7 @@
 {
   "id": "ai-agent-prompt-03",
   "title": "AI Red Team · Tool-Calling Agent Prompt Injection Lab",
-  "category": "ai",
+  "category": "AI Sec",
   "date": "2026-01-27",
   "readTime": "Research note",
   "excerpt": "Indirect injection across retrieval + tool gates: leaking system policy, forging calendar invites, and exfil via benign-looking markdown.",
