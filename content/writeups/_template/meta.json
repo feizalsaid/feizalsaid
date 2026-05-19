@@ -1,0 +1,10 @@
+{
+  "id": "CHANGE-ME-slug",
+  "title": "Platform · Machine or lab name",
+  "category": "offensive",
+  "date": "2026-05-19",
+  "readTime": "15 min lab",
+  "excerpt": "One sentence summary for the card.",
+  "tags": ["HTB", "Linux"],
+  "cover": "cover.png"
+}

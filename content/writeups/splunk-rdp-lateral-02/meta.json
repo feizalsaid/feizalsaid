@@ -1,0 +1,10 @@
+{
+  "id": "splunk-rdp-lateral-02",
+  "title": "Splunk Triage · RDP Fan-Out & PowerShell Lateral Staging",
+  "category": "defensive",
+  "date": "2026-02-18",
+  "readTime": "SOC narrative",
+  "excerpt": "Multi-host correlation: failed Kerberos noise, anomalous RDP hops, and encoded PowerShell spawning from an unexpected parent.",
+  "tags": ["Splunk", "SIEM", "IR", "Correlation"],
+  "cover": ""
+}
