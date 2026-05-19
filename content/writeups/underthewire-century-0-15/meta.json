@@ -1,0 +1,14 @@
+{
+  "id": "underthewire-century-0-15",
+  "title": "Under The Wire: Century Levels 0\u201315 Walkthrough",
+  "category": "offensive",
+  "excerpt": "An in-depth guide to mastering basic PowerShell syntax, object properties, pipeline mechanics, and system enumeration using core cmdlets.",
+  "tags": [
+    "PowerShell",
+    "Windows",
+    "CLI",
+    "CTF"
+  ],
+  "date": "2026-05-19",
+  "readTime": "13 min read"
+}
