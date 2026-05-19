@@ -2,7 +2,6 @@
   "writeups": [
     "vh-cronspire-01",
     "splunk-rdp-lateral-02",
-    "ai-agent-prompt-03",
-    "overthewire0-20"
+    "ai-agent-prompt-03"    
   ]
 }
