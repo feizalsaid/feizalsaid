@@ -629,15 +629,56 @@
       }
 
       async function loadWriteups() {
-        const manifest = await fetchJson(`${WRITEUPS_BASE}/manifest.json`);
-        const slugs = (manifest.writeups || []).filter((s) => s && !s.startsWith("_"));
-        const metas = await Promise.all(
-          slugs.map((slug) => fetchJson(`${writeupBasePath(slug)}/meta.json`))
-        );
-        writeupsData = metas.sort((a, b) => (b.date || "").localeCompare(a.date || ""));
-        loadingEl.classList.add("hidden");
-        renderCards();
+  const container = document.getElementById('writeups-grid'); // or your grid ID
+  const loader = document.getElementById('loading-log');     // or your loader ID
+  
+  try {
+    // 1. Fetch manifest with cache-busting version control
+    const manifestRes = await fetch(`/content/writeups/manifest.json?v=${new Date().getTime()}`);
+    if (!manifestRes.ok) throw new Error("Failed to load manifest.json");
+    
+    const manifest = await manifestRes.json();
+    const slugs = (manifest.writeups || []).filter(s => s && !s.startsWith("_"));
+    
+    // 2. Fetch all metadata paths safely, catching individual errors
+    const cardPromises = slugs.map(async (slug) => {
+      try {
+        const res = await fetch(`/content/writeups/${slug}/meta.json?v=${new Date().getTime()}`);
+        if (!res.ok) {
+          console.warn(`Skipping "${slug}": Server returned status ${res.status}`);
+          return null; // Return null so one broken lab doesn't crash the whole site
+        }
+        return await res.json();
+      } catch (err) {
+        console.error(`Network error parsing metadata for folder [${slug}]:`, err);
+        return null;
       }
+    });
+
+    // Resolve all promises together
+    const allCards = await Promise.all(cardPromises);
+    
+    // Filter out the broken null records so only valid labs pass to the UI engine
+    const validCards = allCards.filter(card => card !== null);
+    
+    // 3. Clear loader state and render the grid
+    if (loader) loader.style.display = 'none';
+    
+    if (validCards.length === 0) {
+      container.innerHTML = `<div class="text-slate-400 py-8 text-center border border-dashed border-slate-700 rounded-lg">No active laboratory tracks indexed.</div>`;
+      return;
+    }
+    
+    // Run your existing renderCards(validCards) function here...
+    renderCards(validCards);
+
+  } catch (globalError) {
+    console.error("Global Initialization Failure:", globalError);
+    if (loader) {
+      loader.innerHTML = `<span class="text-rose-400 font-mono">⚡ [FATAL] Critical System Exception: Core Pipeline Halted. Check local config.</span>`;
+    }
+  }
+}
 
       async function loadMarkdown(slug) {
         if (markdownCache.has(slug)) return markdownCache.get(slug);
