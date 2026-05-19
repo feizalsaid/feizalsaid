@@ -1,7 +1,7 @@
 {
   "id": "overthewire-bandit-0-20",
   "title": "OverTheWire: Bandit Levels 0\u201320 Walkthrough",
-  "category": "offensive",
+  "category": "Offensive",
   "excerpt": "A comprehensive walkthrough covering Linux command-line essentials, pipeline manipulation, obfuscation analysis, and privilege escalation vectors.",
   "tags": [
     "Linux",
