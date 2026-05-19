@@ -586,6 +586,8 @@
 
       let writeupsData = [];
       let activeFilter = "all";
+        ? allCards 
+        : allCards.filter(c => c.category.toLowerCase() === activeFilter.toLowerCase());
       const markdownCache = new Map();
 
       marked.setOptions({ gfm: true, breaks: true });
