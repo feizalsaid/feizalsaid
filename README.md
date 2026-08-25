@@ -1,10 +1,6 @@
 <h1 align="center">Feizal Said</h1>
 
-<h3 align="center">Security Engineer · Nairobi, Kenya</h3>
-
-<p align="center">
-  <em>"I break things on weekends so I can defend them better on weekdays."</em>
-</p>
+<h3 align="center">Cybersecurity Engineer · Nairobi, Kenya</h3>
 
 <p align="center">
   <a href="https://feizalsaid.github.io/" target="_blank">Portfolio</a> ·
@@ -18,21 +14,21 @@
 
 ### About
 
-SOC Analyst candidate with hands-on experience in network traffic analysis, log monitoring, and incident investigation through **72+ practical labs** on Hack The Box, TryHackMe, and VulnHub. Focused on blue team operations and security monitoring with a growing interest in cloud and AI security.
+Cybersecurity engineer with hands-on experience across offensive and defensive security. Completed **72+ machines** on Hack The Box, TryHackMe, and VulnHub — covering privilege escalation, web exploitation, Active Directory attacks, and post-exploitation techniques.
 
-- **Certifications:** CompTIA Security+ | HTB CJCA (In Progress)
-- **Focus:** SIEM & Monitoring, Threat Detection, Penetration Testing
-- **Currently:** Building cloud security foundations
+Proficient in **virtualization and lab automation** — building and tearing down complex environments using Vagrant, QEMU, VMware, and Hyper-V. Experienced with infrastructure-as-code through Ansible and Docker, with Git-based workflows for version control and collaboration.
+
+On the defensive side, skilled in **log analysis, alert triage, and SIEM operations** using Splunk and Wazuh. Strong working knowledge of the **OWASP Top 10**, including SSRF, injection flaws, and broken access control. Currently pursuing **HTB CPTS** certification while building a foundation in **cloud security** — exploring AWS and Azure security architectures, IAM policies, and cloud-native threat detection.
 
 ### Technical Skills
 
 <table>
-<tr><td><strong>SIEM & Monitoring</strong></td><td>Splunk · Elastic Stack (ELK) · Event Correlation · Alert Triage · Threat Hunting</td></tr>
-<tr><td><strong>Network Security</strong></td><td>Wireshark · Nmap · TCP/IP · VPN & Firewalls · Protocol Analysis</td></tr>
-<tr><td><strong>Offensive Security</strong></td><td>Metasploit · Burp Suite · Reconnaissance · Exploitation · Privilege Escalation</td></tr>
-<tr><td><strong>Programming</strong></td><td>Python · JavaScript · Go · Bash · PowerShell · Git</td></tr>
-<tr><td><strong>Operating Systems</strong></td><td>Linux (Ubuntu/Kali) · Windows Security · Active Directory</td></tr>
-<tr><td><strong>Frameworks</strong></td><td>MITRE ATT&CK · OWASP Top 10 · CVSS Scoring · Zero Trust</td></tr>
+<tr><td><strong>Security Operations</strong></td><td>Splunk · Wazuh · Log Analysis · Alert Triage · MITRE ATT&CK · Incident Response</td></tr>
+<tr><td><strong>Offensive Security</strong></td><td>Metasploit · Burp Suite · Nmap · Privilege Escalation · Web Exploitation · OWASP Top 10</td></tr>
+<tr><td><strong>Network & Infrastructure</strong></td><td>Wireshark · TCP/IP · VPN & Firewalls · Protocol Analysis</td></tr>
+<tr><td><strong>Virtualization & Cloud</strong></td><td>Vagrant · QEMU · VMware · Hyper-V · AWS · Azure</td></tr>
+<tr><td><strong>Automation & DevOps</strong></td><td>Ansible · Docker · Git · Bash · Python</td></tr>
+<tr><td><strong>Programming</strong></td><td>Python · JavaScript · Go · PowerShell</td></tr>
 </table>
 
 ### Featured Projects
@@ -40,12 +36,23 @@ SOC Analyst candidate with hands-on experience in network traffic analysis, log 
 | Project | Description | Tech |
 |---------|-------------|------|
 | [Wazuh SIEM Homelab](https://github.com/feizalsaid/SIEM-SETUP) | Full security monitoring stack with Wazuh Manager, agents, CIS hardening, and OpenSCAP automation | Wazuh, OpenSCAP, Linux, Ansible |
-| [VulnHub Writeups](https://github.com/feizalsaid/vulnhub-works-) | Documented walkthroughs of deliberately vulnerable machines — from initial foothold to root | CTF, Privilege Escalation, Linux |
+| [VulnHub Writeups](https://github.com/feizalsaid/vulnhub-works-) | 8 documented walkthroughs of vulnerable machines — from initial foothold to root | CTF, Privilege Escalation, Linux |
 | [Portfolio Site](https://github.com/feizalsaid/feizalsaid.github.io) | Pure vanilla JS single-page app with markdown writeups, client-side routing, and dark/light theme | JavaScript, HTML, CSS, GitHub Pages |
 
-### Recent Writeups
+### Writeups
 
-Check out my latest security writeups on my [portfolio site](https://feizalsaid.github.io/) — covering offensive and defensive security topics.
+| Title | Platform | Key Techniques |
+|-------|----------|---------------|
+| [Covfefe — Buffer Overflow & SSH Key Cracking](https://feizalsaid.github.io/writeup/vh-covfefe-01) | VulnHub | Exposed SSH keys, john, SUID buffer overflow |
+| [Gaara — Credential Discovery & GDB SUID](https://feizalsaid.github.io/writeup/vh-gaara-01) | VulnHub | Hidden credentials, brainfuck, GDB SUID |
+| [GEARS_OF_WAR — SMB to Root Shell](https://feizalsaid.github.io/writeup/vh-gears-of-war-01) | VulnHub | SMB, ZIP cracking, Caesar cipher, SUID cp |
+| [Krypton — Classical Cryptography](https://feizalsaid.github.io/writeup/vh-krypton-01) | HTB | Base64, ROT13, frequency analysis, Vigenere |
+| [Cronspire — Cron Job Exploitation](https://feizalsaid.github.io/writeup/vh-cronspire-01) | VulnHub | Cron jobs, path hijacking |
+| [Bandit: Levels 0-20](https://feizalsaid.github.io/writeup/overthewire-bandit-0-20) | OverTheWire | SSH, Linux commands, privilege escalation |
+| [Wazuh SIEM Homelab](https://feizalsaid.github.io/writeup/wazuh-siemsetup) | Homelab | Wazuh, OpenSCAP, CIS hardening |
+| [Splunk: RDP Lateral Movement](https://feizalsaid.github.io/writeup/splunk-rdp-lateral-02) | Splunk / THM | Log analysis, lateral movement detection |
+
+More walkthroughs on my [portfolio site](https://feizalsaid.github.io/) and [GitHub repo](https://github.com/feizalsaid/vulnhub-works-).
 
 ---
 
