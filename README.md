@@ -51,6 +51,7 @@ On the defensive side, skilled in **log analysis, alert triage, and SIEM operati
 | [Bandit: Levels 0-20](https://feizalsaid.github.io/writeup/overthewire-bandit-0-20) | OverTheWire | SSH, Linux commands, privilege escalation |
 | [Wazuh SIEM Homelab](https://feizalsaid.github.io/writeup/wazuh-siemsetup) | Homelab | Wazuh, OpenSCAP, CIS hardening |
 | [Splunk: RDP Lateral Movement](https://feizalsaid.github.io/writeup/splunk-rdp-lateral-02) | Splunk / THM | Log analysis, lateral movement detection |
+| [Cloud Security Journey](https://feizalsaid.github.io/writeup/cloud-security-journey) | AWS / Azure | IAM, cloud architectures, threat detection — *Coming Soon* |
 
 More walkthroughs on my [portfolio site](https://feizalsaid.github.io/) and [GitHub repo](https://github.com/feizalsaid/vulnhub-works-).
 
