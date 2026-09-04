@@ -36,13 +36,22 @@ On the defensive side, skilled in **log analysis, alert triage, and SIEM operati
 | Project | Description | Tech |
 |---------|-------------|------|
 | [Wazuh SIEM Homelab](https://github.com/feizalsaid/SIEM-SETUP) | Full security monitoring stack with Wazuh Manager, agents, CIS hardening, and OpenSCAP automation | Wazuh, OpenSCAP, Linux, Ansible |
-| [VulnHub Writeups](https://github.com/feizalsaid/vulnhub-works-) | 8 documented walkthroughs of vulnerable machines — from initial foothold to root | CTF, Privilege Escalation, Linux |
+| [HTB Writeups](https://github.com/feizalsaid/htb-writeups) | 8 Hack The Box machine walkthroughs — Starting Point & Easy, with defensive takeaways | CTF, Penetration Testing, MITRE ATT&CK |
+| [VulnHub Writeups](https://github.com/feizalsaid/vulnhub-works-) | Documented walkthroughs of vulnerable machines — from initial foothold to root | CTF, Privilege Escalation, Linux |
 | [Portfolio Site](https://github.com/feizalsaid/feizalsaid.github.io) | Pure vanilla JS single-page app with markdown writeups, client-side routing, and dark/light theme | JavaScript, HTML, CSS, GitHub Pages |
 
 ### Writeups
 
 | Title | Platform | Key Techniques |
 |-------|----------|---------------|
+| [Explosion — RDP Default Credentials](https://feizalsaid.github.io/writeups/htb-explosion-01/) | HTB | RDP, blank Administrator password |
+| [Preignition — Dir Brute-Force & Default Creds](https://feizalsaid.github.io/writeups/htb-preignition-01/) | HTB | Gobuster, admin.php, default credentials |
+| [Synced — Open rsync Share](https://feizalsaid.github.io/writeups/htb-synced-01/) | HTB | rsync, unauthenticated share |
+| [Mongod — Unauthenticated MongoDB](https://feizalsaid.github.io/writeups/htb-mongod-01/) | HTB | MongoDB, NoSQL enumeration |
+| [Funnel — SSH Tunneling to PostgreSQL](https://feizalsaid.github.io/writeups/htb-funnel-01/) | HTB | FTP, SSH port forwarding, PostgreSQL |
+| [Pennyworth — Jenkins Groovy RCE](https://feizalsaid.github.io/writeups/htb-pennyworth-01/) | HTB | Jenkins, default creds, Groovy script console |
+| [Bike — Node.js SSTI](https://feizalsaid.github.io/writeups/htb-bike-01/) | HTB | Handlebars SSTI, remote code execution |
+| [MetaTwo — WordPress SQLi → XXE → root](https://feizalsaid.github.io/writeups/htb-metatwo-01/) | HTB | BookingPress SQLi, WordPress XXE, passpie/PGP |
 | [Covfefe — Buffer Overflow & SSH Key Cracking](https://feizalsaid.github.io/writeup/vh-covfefe-01) | VulnHub | Exposed SSH keys, john, SUID buffer overflow |
 | [Gaara — Credential Discovery & GDB SUID](https://feizalsaid.github.io/writeup/vh-gaara-01) | VulnHub | Hidden credentials, brainfuck, GDB SUID |
 | [GEARS_OF_WAR — SMB to Root Shell](https://feizalsaid.github.io/writeup/vh-gears-of-war-01) | VulnHub | SMB, ZIP cracking, Caesar cipher, SUID cp |
@@ -53,7 +62,7 @@ On the defensive side, skilled in **log analysis, alert triage, and SIEM operati
 | [Splunk: RDP Lateral Movement](https://feizalsaid.github.io/writeup/splunk-rdp-lateral-02) | Splunk / THM | Log analysis, lateral movement detection |
 | [Cloud Security Journey](https://feizalsaid.github.io/writeup/cloud-security-journey) | AWS / Azure | IAM, cloud architectures, threat detection — *Coming Soon* |
 
-More walkthroughs on my [portfolio site](https://feizalsaid.github.io/) and [GitHub repo](https://github.com/feizalsaid/vulnhub-works-).
+More walkthroughs on my [portfolio site](https://feizalsaid.github.io/) and GitHub repos: [htb-writeups](https://github.com/feizalsaid/htb-writeups) · [vulnhub-works-](https://github.com/feizalsaid/vulnhub-works-).
 
 ---
 
