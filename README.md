@@ -36,7 +36,7 @@ On the defensive side, skilled in **log analysis, alert triage, and SIEM operati
 | Project | Description | Tech |
 |---------|-------------|------|
 | [Wazuh SIEM Homelab](https://github.com/feizalsaid/SIEM-SETUP) | Full security monitoring stack with Wazuh Manager, agents, CIS hardening, and OpenSCAP automation | Wazuh, OpenSCAP, Linux, Ansible |
-| [HTB Writeups](https://github.com/feizalsaid/htb-writeups) | 8 Hack The Box machine walkthroughs — Starting Point & Easy, with defensive takeaways | CTF, Penetration Testing, MITRE ATT&CK |
+| [HTB Writeups](https://github.com/feizalsaid/htb-writeups) | 17 Hack The Box machine walkthroughs — Starting Point & Easy, with defensive takeaways | CTF, Penetration Testing, MITRE ATT&CK |
 | [VulnHub Writeups](https://github.com/feizalsaid/vulnhub-works-) | Documented walkthroughs of vulnerable machines — from initial foothold to root | CTF, Privilege Escalation, Linux |
 | [Portfolio Site](https://github.com/feizalsaid/feizalsaid.github.io) | Pure vanilla JS single-page app with markdown writeups, client-side routing, and dark/light theme | JavaScript, HTML, CSS, GitHub Pages |
 
@@ -49,7 +49,16 @@ On the defensive side, skilled in **log analysis, alert triage, and SIEM operati
 | [Synced — Open rsync Share](https://feizalsaid.github.io/writeups/htb-synced-01/) | HTB | rsync, unauthenticated share |
 | [Mongod — Unauthenticated MongoDB](https://feizalsaid.github.io/writeups/htb-mongod-01/) | HTB | MongoDB, NoSQL enumeration |
 | [Funnel — SSH Tunneling to PostgreSQL](https://feizalsaid.github.io/writeups/htb-funnel-01/) | HTB | FTP, SSH port forwarding, PostgreSQL |
+| [Ignition — Magento Default Credentials](https://feizalsaid.github.io/writeups/htb-ignition-01/) | HTB | Virtual hosting, Magento admin |
+| [Included — LFI → LXD Breakout](https://feizalsaid.github.io/writeups/htb-included-01/) | HTB | LFI, TFTP, LXD container breakout |
+| [Archetype — MSSQL xp_cmdshell → WinRM](https://feizalsaid.github.io/writeups/htb-archetype-01/) | HTB | SMB leak, MSSQL RCE, PS history privesc |
+| [Oopsie — IDOR → SUID Privesc](https://feizalsaid.github.io/writeups/htb-oopsie-01/) | HTB | IDOR, cookie tampering, SUID/PATH |
+| [Unified — Log4Shell → root](https://feizalsaid.github.io/writeups/htb-unified-01/) | HTB | Log4Shell, MongoDB, SSH |
+| [Markup — XXE → root](https://feizalsaid.github.io/writeups/htb-markup-01/) | HTB | XXE, SSH key theft, scheduled task |
+| [Base — Swap Leak → sudo](https://feizalsaid.github.io/writeups/htb-base-01/) | HTB | Swap file leak, PHP type juggling, sudo |
 | [Pennyworth — Jenkins Groovy RCE](https://feizalsaid.github.io/writeups/htb-pennyworth-01/) | HTB | Jenkins, default creds, Groovy script console |
+| [Knife — PHP Backdoor RCE](https://feizalsaid.github.io/writeups/htb-knife-01/) | HTB | PHP 8.1.0-dev backdoor, sudo |
+| [Paper — Rocket.chat CVE](https://feizalsaid.github.io/writeups/htb-paper-01/) | HTB | WordPress, Rocket.chat, credential reuse |
 | [Bike — Node.js SSTI](https://feizalsaid.github.io/writeups/htb-bike-01/) | HTB | Handlebars SSTI, remote code execution |
 | [MetaTwo — WordPress SQLi → XXE → root](https://feizalsaid.github.io/writeups/htb-metatwo-01/) | HTB | BookingPress SQLi, WordPress XXE, passpie/PGP |
 | [Covfefe — Buffer Overflow & SSH Key Cracking](https://feizalsaid.github.io/writeup/vh-covfefe-01) | VulnHub | Exposed SSH keys, john, SUID buffer overflow |
