@@ -5,7 +5,6 @@
 <p align="center">
   <a href="https://feizalsaid.github.io/" target="_blank">Portfolio</a> ·
   <a href="https://github.com/feizalsaid">GitHub</a> ·
-  <a href="https://medium.com/@feizalsaid9" target="_blank">Medium</a> ·
   <a href="https://linkedin.com/in/feizalsaid" target="_blank">LinkedIn</a> ·
   <a href="mailto:feizalsaid9@gmail.com">Email</a>
 </p>
